@@ -1,8 +1,7 @@
 <p align="center">
   <a href="https://oaoS-Dev/Standford-Code_In_Place-Final-Project-2024">
-    <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/c809424b-f642-4a6a-b10f-bc767eef9cdc" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
+    <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/5f77553f-3f48-4e28-aa5f-c81f1b65540a" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
   </a>
-
   <div align="center">
   <h3>
     <a href="codeinplace.standford.edu">
@@ -15,6 +14,8 @@
   </h3>
 </div>
 </P>
+
+![coverfp](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/e9092088-2d12-45aa-ba3b-424955459147)
 
 # Code in Place Final Project 2024
 
