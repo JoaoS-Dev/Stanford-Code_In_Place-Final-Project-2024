@@ -15,8 +15,6 @@
 </div>
 </P>
 
-![coverfp](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/e9092088-2d12-45aa-ba3b-424955459147)
-
 # Code in Place Final Project 2024
 
 **Stanford University** **"Code in Place"** Run by Prof. Mehran Sahami and Prof. Chris Piech.
