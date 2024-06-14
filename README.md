@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://oaoS-Dev/Standford-Code_In_Place-Final-Project">
-    <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/12a06eef-a30d-45ae-b165-df5619201441" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
+  <a href="https://oaoS-Dev/Standford-Code_In_Place-Final-Project-2024">
+    <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/c809424b-f642-4a6a-b10f-bc767eef9cdc" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
   </a>
-  
+
   <div align="center">
   <h3>
     <a href="codeinplace.standford.edu">
@@ -63,21 +63,21 @@ This IDE is a popular open-source code editor (from Microsoft). It is easy to in
 ### Instructions to use this program in the correct manner:
   1. Enter a URL (no need to add https://), click 'Check for Alt Images', and the results with image source and alt text (if present) will be displayed.<br/>
   
-  ![final1](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/94e33806-c6a2-4984-abad-298abf10e19d)<br/>
+  ![final1](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/545c7bf4-436a-4b62-b2a3-c1b3ff5ad8df)<br/>
   #
+  
   2. Use the 'Save Report' option under the File menu to save the results.<br/>
   
-  ![final2](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/892bdf32-0386-4de5-a040-d3485791cdb6)<br/>
+  ![final2](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/9dc3532c-3ff9-4a89-8c17-713fcc4e0481)<br/>
   #
   
   3. The report can be saved under several formats (txt, html, md and xml).<br/>
-  
-  ![fp3](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/d89ed0cb-a459-4f50-bf57-597c517a39a2)
+  ![fp3](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/4cce938f-aae2-473e-bdc9-5e96ae5e14ee)<br/>
   #
   
   Here we can see a full print of the URL Image Alt Text Checker main screen.<br/>
   
-  ![final5](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/aeef25bd-2d65-4b64-85f8-e8d64d4e2818)
+  ![final5](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/74823ffd-df1b-44be-afe6-605d9c1936e5)
 
 **Version:** 0.1
 
@@ -95,6 +95,6 @@ Overall, Stanford Code in Place is an initiative to make computer science educat
 
 For more information, please visit: <a href="https://codeinplace.standford.edu">Code in Place</a><br/>
 
-![logo1](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project/assets/172130901/ae627f3a-6696-4ce7-8052-364522bdcd74)<br/>
+![finalProject 000a6207](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/e2d61940-80f9-4aec-96c1-aa2620ef7684)<br/>
 Credits: Artist's Name: <a href="https://www.deviantart.com/xbooshbabyx">xbooshbabyx</a> 
 Image Link and Name: <a href="https://www.deviantart.com/xbooshbabyx/art/Imagination-124194321">Imagination</a>
