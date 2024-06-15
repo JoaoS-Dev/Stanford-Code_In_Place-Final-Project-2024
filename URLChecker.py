@@ -1,4 +1,8 @@
 """
+Title: URL Image Alt Text Checker
+Created by: João S
+2024
+
 The URL Image Alt Text Checker application helps users analyze the accessibility of a webpage by checking if images have descriptive alt (Alternative) text.
 The concept behind the application is to raise awareness and promote web accessibility by helping developers identify and address missing alt text 
 for images, ultimately improving the user experience for visually impaired individuals and thus promote best pratice guidelines.
@@ -9,7 +13,6 @@ from tkinter import messagebox, filedialog
 import requests
 from bs4 import BeautifulSoup
 import webbrowser  # Import for opening webpages
-#from customtkinter import *
 
 # GUI.
 # This is the GUI setup for the whole app. It calls tkinter lib to do it. It adds the title and the size.
@@ -29,7 +32,7 @@ def check_images(url):
   images_with_alt = 0
   images_without_alt = 0
   
-  # The request library will retrieve the URL information and BeautifulSoup library will search the HTML code and check for image alt text.
+  # The requests library will retrieve the URL information and BeautifulSoup library will search the HTML code and check for image alt text.
   try:
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
