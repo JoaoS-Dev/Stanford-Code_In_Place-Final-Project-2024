@@ -19,6 +19,7 @@
 
 **Stanford University** **"Code in Place"** Run by Prof. Mehran Sahami and Prof. Chris Piech.
 ### Final Project Description
+Created by **João S**<br/>
 
 **URL Image Alt Text Checker**<br/>
 This program helps check for the existence of alt text in images on a website.<br/>
