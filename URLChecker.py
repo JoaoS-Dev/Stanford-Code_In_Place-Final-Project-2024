@@ -34,10 +34,11 @@ def check_images(url):
   
   # The requests library will retrieve the URL information and BeautifulSoup library will search the HTML code and check for image alt text.
   try:
-    response = requests.get(url)
+    response = requests.get(url)    
     soup = BeautifulSoup(response.content, 'html.parser')
     images = soup.find_all('img')
     report_text = ""
+
     for image in images:
       alt_text = image.get('alt', None)
       text = f"IMAGE: {image['src']}\n"
@@ -46,6 +47,7 @@ def check_images(url):
         text += f"ALT TEXT: {alt_text}"
         images_with_alt += 1
       else:
+        # text += "ALT TEXT: None"
         images_without_alt += 1
       report_text += text + "\n\n"
     
@@ -158,6 +160,10 @@ def show_best_practices(): # It displays a message box by accessing the Menu (Ab
   )
   messagebox.showinfo("Best Practices", best_practices_text)
 
+# Calls the webbrowser library to open webpages
+def open_webpage(url): # Opens the provided URL (https link) found in the Resources menu, using the user's prefered web browser independent of what OS is being used.
+    webbrowser.open(url)
+
 # THE MENU BAR. 
 # This creates the Menu. So far it includes: File tab -> Save Report and Exit, Resources tab -> Best Practices and Resource Links (currently with 3 links), Help tab -> Help, About the Project and Disclaimer.
 menu_bar = Menu(window)
@@ -170,11 +176,8 @@ file_menu.add_separator() # Adds a space (line) dividing the labels.
 file_menu.add_command(label="Exit", command=window.destroy)  # Creates the "Exit" command. It will close the application.
 menu_bar.add_cascade(label="File", menu=file_menu)
 
-def open_webpage(url): # Opens the provided URL (https link) found in the Resources menu, using the user's prefered web browser independent of what OS is being used.
-    webbrowser.open(url) # Calls the webbrowser module to display url using a user's default browser.
-
 # RESOURCES MENU
-resources_menu = tk.Menu(menu_bar, tearoff=0) # Creates the Resources Menu tab. It contains, at the moment, 3 links with further information regarding best practices and other information.
+resources_menu = Menu(menu_bar, tearoff=0) # Creates the Resources Menu tab. It contains, at the moment, 3 links with further information regarding best practices and other information.
 resources_menu.add_command(label="Best Practices", command=show_best_practices) # Creates the "Help" Menu and content.
 resources_submenu = Menu(menu_bar, tearoff=0) # Adds a space (line) dividing the labels.
 resources_submenu.add_command(label="WC3 Web Accessibility Initiative", command=lambda: open_webpage("https://www.w3.org/WAI/")) # Resource Link.
@@ -190,6 +193,7 @@ help_menu.add_command(label="About the Project", command=show_about_the_project)
 help_menu.add_command(label="Disclaimer", command=show_disclaimer) # Creates the "Disclaimer" Menu and message content.
 menu_bar.add_cascade(label="Help", menu=help_menu)
 
+# URL Input
 url_label = Label(window, text="Enter URL either by typing the URL address or copy paste it here:", bg = "alice blue")
 url_label.pack()
 
@@ -199,6 +203,7 @@ def on_entry_click(event): # This will be used when the URL Input text box (entr
        url_entry.delete(0, "end") # This clears the text box. From the inicial text position (0) to the end of the text box (END).
        #url_entry.insert(0, "") # Insert blank for user input.
        url_entry.config(fg = "black")
+
 def on_focusout(event):
     if url_entry.get() == "":
         url_entry.insert(0, "https://")
@@ -216,6 +221,7 @@ url_entry.pack()
 check_button = Button(window, text="Check for Alt Text", command = lambda: check_images(url_entry.get())) # Creates the submit button for the chosen URL (the input from the URL Text Box).
 check_button.pack()
 
+# RESULTS TEXT AND BOX
 results_label = Label(window, text="Here are the Results:", bg = "alice blue") 
 results_label.pack(pady=10)
 
@@ -226,6 +232,7 @@ results.pack()
 # Creates the label and text box that will display the image count. It will display the total images found in the URL, the total images that contain Alt text and the total images without Alt text.
 image_counts_label = Label(window, text="Image Count:", bg = "alice blue")
 image_counts_label.pack(pady=10)
+
 image_counts_text = Text(window, height=5, width=40, relief = "solid")  # Creates the text box for the image counter.
 image_counts_text.pack()
 
