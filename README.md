@@ -35,12 +35,10 @@ Alternative text (alt text) is a description of an image that conveys its meanin
 Alt text is crucial for web accessibility, enabling visually impaired users who rely on screen readers 
 to understand the content and context of images on a webpage.
 
-Screen readers are a type of interactive software that read the alt text aloud, allowing users to gain 
-information that would otherwise be conveyed visually.
-They make it possible for people who are blind or low-vision to interact with digital documents, forms, and web pages.
+Screen readers make it possible for people who are blind or low-vision to interact with digital documents, forms, and web pages.
 
 Alt text also helps search engine crawlers (bots that search and index webpage content) and users understand images that 
-do not load correctly. If an image fails to load on a document or web page, then the alt text will be displayed in its place.<br/> 
+do not load correctly. If an image fails to load on a document or web page, then the alt text will be displayed in its place.
 This makes effective alt text very useful if users have a poor internet connection.
 
 Alt text can include the name, colors, shape, setting, tone, and emotion of an image.
