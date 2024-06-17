@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://oaoS-Dev/Standford-Code_In_Place-Final-Project-2024">
+  <a href="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024">
     <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/d13750a9-81ad-4083-bf83-f3233215278f" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
   </a>
   <div align="center">
@@ -48,7 +48,7 @@ to people with disabilities
 
  
 # Programming Language and Environment used:<br/> 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](#features)
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 
  - **Python:** This project is written in Python, the programming language being taught at Code in Place. It is a versatile and beginner-friendly programming language. **Python version** 3.10.2<br/>
  - **VSCode:** Code in Place uses its own IDE but I chose to use Visual Studio Code (VS Code) due to the fact that I needed external libraries that were not available in the 
@@ -105,7 +105,7 @@ where students work on coding exercises, projects and weekly live zoom meetings 
 The course fosters a sense of community among participants through discussion forums, study groups, and collaborative projects. This helps create an 
 engaging and supportive learning environment. It aims to democratize access to high-quality computer science education.
 
-Overall, Stanford Code in Place is an initiative to make computer science education more accessible and to build a global community of learners.<br/>
+Stanford Code in Place is an initiative to make computer science education more accessible and to build a global community of learners.<br/>
 
 For more information, please visit: <a href="https://codeinplace.standford.edu">Code in Place</a><br/>
 
