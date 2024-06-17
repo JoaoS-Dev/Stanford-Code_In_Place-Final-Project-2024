@@ -200,6 +200,7 @@ resources_menu.add_command(label="What is Alt Text?", command=show_alt_text_info
 resources_menu.add_command(label="Best Practices", command=show_best_practices) # Creates the "Best Practices" Menu and content.
 resources_submenu = Menu(menu_bar, tearoff=0) # Adds a space (line) dividing the labels.
 resources_submenu.add_command(label="WC3 Web Accessibility Initiative", command=lambda: open_webpage("https://www.w3.org/WAI/")) # Resource Link.
+resources_submenu.add_command(label="WC3 Web Content Accessibility Guidelines", command=lambda: open_webpage("https://www.w3.org/WAI/standards-guidelines/wcag/")) # Resource Link.
 resources_submenu.add_command(label="Standford Code in Place", command=lambda: open_webpage("https://codeinplace.stanford.edu/")) # Resource Link.
 resources_submenu.add_command(label="Teach Access", command=lambda: open_webpage("https://teachaccess.org/")) # Resource Link
 resources_menu.add_cascade(label='Resource Links', menu=resources_submenu, underline=0) # Creates the submenu under Resource Links
