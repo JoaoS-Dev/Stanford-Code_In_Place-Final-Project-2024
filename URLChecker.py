@@ -138,25 +138,43 @@ def show_about_the_project(): # It displays a message box by accessing the Menu 
   )
   messagebox.showinfo("About the Project", about_the_project_text)
 
+def show_alt_text_info(): # It displays a message box by accessing the Menu (About section) with the "What is Alt Text?" information.
+  alt_text_info_text = (
+      "What is Alt Text?\n"
+      "\n"
+      "Alternative text (alt text) is a description of an image that conveys its meaning and context in a webpage.\n"
+      "\n"
+      "Alt text is crucial for web accessibility, enabling visually impaired users who rely on screen readers to understand the content and context of images on a webpage.\n"
+      "\n"
+      "Screen readers make it possible for people who are blind or low-vision to interact with digital documents, forms, and web pages.\n"
+      "\n"
+      "Alt text also helps search engine crawlers (bots that search and index webpage content) and users understand images that do not load correctly.\n" 
+      "If an image fails to load on a document or web page, then the alt text will be displayed in its place.\n"
+      "This makes effective alt text very useful if users have a poor internet connection.\n"
+      "\n"
+      "Alt text can include the name, colors, shape, setting, tone, and emotion of an image.\n"
+  )
+  messagebox.showinfo("Best Practices", alt_text_info_text)
+
 def show_best_practices(): # It displays a message box by accessing the Menu (About section) with the "About the project" information.
   best_practices_text = (
       "Good alt text is concise, descriptive, and provides the same functional information that the image conveys to sighted users. It's an essential part of making web content accessible to everyone.\n"
       "\n"
       "Some common alt text mistakes:\n"
       "\n"
-      "- Omitting alt text: Not providing any alt text is a significant oversight, as it leaves visually impaired users without any context for the image1.\n"
+      "- Omitting alt text: Not providing any alt text is a significant oversight, as it leaves visually impaired users without any context for the image.\n"
       "\n"
-      "- Vague descriptions: Alt text like “dog” is too general and doesn’t offer enough detail about the image’s content1.\n"
+      "- Vague descriptions: Alt text like “dog” is too general and doesn’t offer enough detail about the image’s content.\n"
       "\n"
-      "- Overly complex language: Using jargon or complex terms can make the alt text difficult to understand2.\n"
+      "- Overly complex language: Using jargon or complex terms can make the alt text difficult to understand.\n"
       "\n"
-      "- Ignoring the context: Alt text should relate the image to the surrounding content, not just describe it in isolation3.\n"
+      "- Ignoring the context: Alt text should relate the image to the surrounding content, not just describe it in isolation.\n"
       "\n"
-      "- Repeating the caption: If the image has a caption, the alt text should not simply repeat it2.\n"
+      "- Repeating the caption: If the image has a caption, the alt text should not simply repeat it.\n"
       "\n"
-      "- Missing out on function: If an image is also a button or link, the alt text should describe its function, not just its appearance3.\n"
+      "- Missing out on function: If an image is also a button or link, the alt text should describe its function, not just its appearance.\n"
       "\n"
-      "- Not updating alt text: Alt text should be reviewed and updated to ensure it remains relevant and accurate2.\n"
+      "- Not updating alt text: Alt text should be reviewed and updated to ensure it remains relevant and accurate.\n"
   )
   messagebox.showinfo("Best Practices", best_practices_text)
 
@@ -165,7 +183,7 @@ def open_webpage(url): # Opens the provided URL (https link) found in the Resour
     webbrowser.open(url)
 
 # THE MENU BAR. 
-# This creates the Menu. So far it includes: File tab -> Save Report and Exit, Resources tab -> Best Practices and Resource Links (currently with 3 links), Help tab -> Help, About the Project and Disclaimer.
+# This creates the Menu. So far it includes: File tab -> Save Report and Exit, Resources tab -> What is Alt Text, Best Practices and Resource Links (currently with 3 links), Help tab -> Help, About the Project and Disclaimer.
 menu_bar = Menu(window)
 window.config(menu=menu_bar)
 
@@ -177,8 +195,9 @@ file_menu.add_command(label="Exit", command=window.destroy)  # Creates the "Exit
 menu_bar.add_cascade(label="File", menu=file_menu)
 
 # RESOURCES MENU
-resources_menu = Menu(menu_bar, tearoff=0) # Creates the Resources Menu tab. It contains, at the moment, 3 links with further information regarding best practices and other information.
-resources_menu.add_command(label="Best Practices", command=show_best_practices) # Creates the "Help" Menu and content.
+resources_menu = Menu(menu_bar, tearoff=0) # Creates the Resources Menu tab. It contains 3 categories: What is Alt Text, Best Practices and Resources Links with 3 links with information regarding best practices and other information.
+resources_menu.add_command(label="What is Alt Text?", command=show_alt_text_info) # Creates the "What is Alt Text?" Menu and content.
+resources_menu.add_command(label="Best Practices", command=show_best_practices) # Creates the "Best Practices" Menu and content.
 resources_submenu = Menu(menu_bar, tearoff=0) # Adds a space (line) dividing the labels.
 resources_submenu.add_command(label="WC3 Web Accessibility Initiative", command=lambda: open_webpage("https://www.w3.org/WAI/")) # Resource Link.
 resources_submenu.add_command(label="Standford Code in Place", command=lambda: open_webpage("https://codeinplace.stanford.edu/")) # Resource Link.
