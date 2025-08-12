@@ -4,7 +4,7 @@
   </a>
   <div align="center">
   <h3>
-    <a href="codeinplace.stanford.edu">
+    <a href="https://codeinplace.stanford.edu">
       Code In Place
     </a>
     <span> | </span>
