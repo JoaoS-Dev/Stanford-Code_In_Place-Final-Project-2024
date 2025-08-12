@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024">
-    <img src="https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/d13750a9-81ad-4083-bf83-f3233215278f" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
+  <a href="https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024">
+    <img src="https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/d13750a9-81ad-4083-bf83-f3233215278f" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
   </a>
   <div align="center">
   <h3>
