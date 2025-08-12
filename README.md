@@ -77,25 +77,25 @@ This IDE is a popular open-source code editor (from Microsoft). It is easy to in
 ### Instructions to use this program in the correct manner:
   1. Enter a URL (no need to add https://), click 'Check for Alt Images', and the results with image source and alt text (if present) will be displayed.<br/>
   
-  ![final1](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/545c7bf4-436a-4b62-b2a3-c1b3ff5ad8df)<br/>
+  ![final1](https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/545c7bf4-436a-4b62-b2a3-c1b3ff5ad8df)<br/>
   #
   
   2. Use the 'Save Report' option under the File menu to save the results.<br/>
   
-  ![final2](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/9dc3532c-3ff9-4a89-8c17-713fcc4e0481)<br/>
+  ![final2](https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/9dc3532c-3ff9-4a89-8c17-713fcc4e0481)<br/>
   #
   
   3. The report can be saved under several formats (txt, html, md and xml).<br/>
-  ![fp3](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/4cce938f-aae2-473e-bdc9-5e96ae5e14ee)<br/>
+  ![fp3](https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/4cce938f-aae2-473e-bdc9-5e96ae5e14ee)<br/>
   #
   
   Here we can see a full print of the URL Image Alt Text Checker main screen.<br/>
   
-  ![final5](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/74823ffd-df1b-44be-afe6-605d9c1936e5)
+  ![final5](https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/74823ffd-df1b-44be-afe6-605d9c1936e5)
 
 **Version:** 0.1
 
-## About Standford's Code in Place
+## About Stanford's Code in Place
 The Stanford Code in Place is free an online course offered by Stanford University, designed to teach the fundamentals of computer programming using Python. 
 The course is based on Stanford's introductory programming course, CS106A.
 
@@ -107,8 +107,8 @@ engaging and supportive learning environment. It aims to democratize access to h
 
 Stanford Code in Place is an initiative to make computer science education more accessible and to build a global community of learners.<br/>
 
-For more information, please visit: <a href="https://codeinplace.standford.edu">Code in Place</a><br/>
+For more information, please visit: <a href="https://codeinplace.stanford.edu">Code in Place</a><br/>
 
-![finalProject 000a6207](https://github.com/JoaoS-Dev/Standford-Code_In_Place-Final-Project-2024/assets/172130901/e2d61940-80f9-4aec-96c1-aa2620ef7684)<br/>
+![finalProject 000a6207](https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/e2d61940-80f9-4aec-96c1-aa2620ef7684)<br/>
 Credits: Artist's Name: <a href="https://www.deviantart.com/xbooshbabyx">xbooshbabyx</a> 
 Image Link and Name: <a href="https://www.deviantart.com/xbooshbabyx/art/Imagination-124194321">Imagination</a>
