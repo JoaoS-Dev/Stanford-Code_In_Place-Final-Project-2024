@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024">
-    <img src="https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/d13750a9-81ad-4083-bf83-f3233215278f" alt="Logo displaying the Name of the application, URL Image Alt Text Checker, the student name and an image of Karel the robot" >
+    <img src="https://github.com/JoaoS-Dev/Stanford-Code_In_Place-Final-Project-2024/assets/172130901/d13750a9-81ad-4083-bf83-f3233215278f" alt="Screenshot of the “URL Image Alt Text Checker” application interface on the left, showing results for images on google.com, and a stylized logo on the right with a magnifying glass over an image icon and the slogan “Check, Improve, Include”. The application name “URL Image Alt Text Checker” appears in large text below." >
   </a>
   <div align="center">
   <h3>
