@@ -17,19 +17,22 @@
 
 # Code in Place Final Project 2024
 
-**Stanford University** **"Code in Place"** Run by Prof. Mehran Sahami and Prof. Chris Piech.
+**Stanford University** — *Code in Place* run by Prof. Mehran Sahami and Prof. Chris Piech.
+
 ### Final Project Description
 Created by **João S**<br/>
 
 **URL Image Alt Text Checker**<br/>
-This program helps check for the existence of alt text in images on a website.<br/>
+This program analyzes a webpage to check whether images have descriptive alt text.<br/>
 
 The **URL Image Alt Text Checker** application helps users analyze the accessibility of a webpage by checking if images have descriptive alt text.
 The concept behind the application is to raise awareness and promote web accessibility by helping developers identify and address missing alt text 
-for images, ultimately improving the user experience for visually impaired individuals and thus promote best pratice guidelines. The idea came after 
+for images, ultimately improving the user experience for visually impaired individuals and thus promote best pratice guidelines. The idea originated after 
 participating in a webinar event named "Panel: Accessibility in Tech & Education", promoted by Code in Place.
 
-**What is Alt Text?**
+---
+
+## What is Alt Text?
 
 Alternative text (alt text) is a description of an image that conveys its meaning and context in a webpage.<br/>
 Alt text is crucial for web accessibility, enabling visually impaired users who rely on screen readers 
@@ -96,7 +99,7 @@ This IDE is a popular open-source code editor (from Microsoft). It is easy to in
 **Version:** 0.1
 
 ## About Stanford's Code in Place
-The Stanford Code in Place is free an online course offered by Stanford University, designed to teach the fundamentals of computer programming using Python. 
+The Stanford Code in Place is a free online course offered by Stanford University, designed to teach the fundamentals of computer programming using Python. 
 The course is based on Stanford's introductory programming course, CS106A.
 
 The course is delivered through a combination of pre-recorded lectures, live sessions, and assignments. It includes a significant hands-on component 
