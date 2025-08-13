@@ -9,7 +9,7 @@
     </a>
     <span> | </span>
     <a href="https://www.w3.org/WAI/">
-      Userful Resources
+      Useful Resources
     </a>
   </h3>
 </div>
@@ -27,7 +27,7 @@ This program analyzes a webpage to check whether images have descriptive alt tex
 
 The **URL Image Alt Text Checker** application helps users analyze the accessibility of a webpage by checking if images have descriptive alt text.
 The concept behind the application is to raise awareness and promote web accessibility by helping developers identify and address missing alt text 
-for images, ultimately improving the user experience for visually impaired individuals and thus promote best pratice guidelines. The idea originated after 
+for images, ultimately improving the user experience for visually impaired individuals and thus promote best practice guidelines. The idea originated after 
 participating in a webinar event named "Panel: Accessibility in Tech & Education", promoted by Code in Place.
 
 ---
@@ -46,7 +46,7 @@ This makes effective alt text very useful if users have a poor internet connecti
 
 Alt text can include the name, colors, shape, setting, tone, and emotion of an image.
 
-For more information, please visit the <a href="https://www.w3.org/WAI/"> WC3 Web Accessibility Initiative</a> for strategies, standards and resources to make the Web accessible 
+For more information, please visit the <a href="https://www.w3.org/WAI/"> W3C Web Accessibility Initiative</a> for strategies, standards and resources to make the Web accessible 
 to people with disabilities
 
  
@@ -64,13 +64,13 @@ This IDE is a popular open-source code editor (from Microsoft). It is easy to in
 - **requests:** Used to fetch the HTML content of the webpage from the provided URL. It facilitates making HTTP requests in Python.
 - **BeautifulSoup:** Used to parse the fetched HTML content from request. It simplifies navigating and extracting information from the HTML structure.
 - **tkinter:** Used for creating the graphical user interface (GUI) such as the text box for URL input, results display and image count (text widget) and error messages (messagebox).
-- **webbrowser:** It provides an interface for users to view Web-based content. It will displays web-based documents or web pages.
+- **webbrowser:** It provides an interface for users to view Web-based content. It will display web-based documents or web pages.
 
 # **How it works:**
 
- - Takes an user URL input either by typing or using copy-paste.
+ - Takes a user URL input either by typing or using copy-paste.
  - Checks if the URL starts with "https://" and adds it, if not present.
- - Fetches the HTML content of the webpage using the provided user URL input and parses the HTML to find all image tags (<img>).
+ - Fetches the HTML content of the webpage using the provided user URL input and parses the HTML to find all image tags (`<img>`).
  - For each image, it extracts the source URL (src attribute) and checks if it has an alt text attribute (alt).
  - Generates a report text containing information for each image:
      * Image source URL
