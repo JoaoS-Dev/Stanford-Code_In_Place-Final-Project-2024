@@ -17,7 +17,7 @@ import webbrowser  # Import for opening webpages
 # GUI.
 # This is the GUI setup for the whole app. It calls tkinter lib to do it. It adds the title and the size.
 window = Tk()
-window.title("URL Image Alt Text Checker - Final Project - Standford Code In Place 2024 by Joao S.") # App Tittle
+window.title("URL Image Alt Text Checker - Final Project - Stanford Code In Place 2024 by Joao S.") # App Tittle
 window.geometry("880x570") # Regulates the main window size.
 window.configure(bg = "alice blue")  # Set background color. Light gray background #F0F0F0 
 
